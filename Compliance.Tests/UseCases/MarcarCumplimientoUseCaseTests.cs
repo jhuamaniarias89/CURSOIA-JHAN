@@ -15,6 +15,7 @@ namespace Compliance.Tests.UseCases;
 /// marcar como cumplido un registro de cumplimiento, incluyendo la
 /// validación de evidencias y la persistencia mediante el repositorio.
 /// </summary>
+
 public sealed class MarcarCumplimientoUseCaseTests
 {
     /// <summary>

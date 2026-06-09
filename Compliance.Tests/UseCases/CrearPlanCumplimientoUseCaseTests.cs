@@ -11,7 +11,7 @@ public sealed class CrearPlanCumplimientoUseCaseTests
     [Fact]
     public async Task ExecuteAsyncWhenRequestIsValidCreatesPlanAndPersistsIt()
     {
-        // Arrange
+        // Arrange - Prueba
         var repository = Substitute.For<IPlanCumplimientoRepository>();
         var baseLegalId = Guid.NewGuid();
         var proyectoId = Guid.NewGuid();
